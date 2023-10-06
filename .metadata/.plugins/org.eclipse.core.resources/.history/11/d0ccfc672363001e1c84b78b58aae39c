@@ -1,0 +1,28 @@
+package ex01;
+
+import java.util.Arrays;
+import java.util.stream.IntStream;
+
+public class FirstStreamExam {
+
+	public static void main(String[] args) {
+		int[] ar = {1,2,3,4,5};
+		
+		IntStream stm1 = Arrays.stream(ar);
+		IntStream stm2 = stm1.filter( n-> n%2 == 1);
+		
+		int sum1 = stm2.sum();
+		int sum2 = (int)stm2.count(); // 필터를 통과한 놈들의 개수
+		System.out.println(sum1);
+		
+		int result = Arrays.stream(ar).filter(n-> n%2 == 0).sum(); // 체인방식
+		System.out.println(result);
+		
+		System.out.println("---------------------------------------");
+		String[] names = {"Toy", "Box", "Robot"};
+		Arrays.stream(names).forEach(s->System.out.println(s));
+		
+		
+	}
+
+}

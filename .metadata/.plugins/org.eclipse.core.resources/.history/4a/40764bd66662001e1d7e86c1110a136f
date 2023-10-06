@@ -1,0 +1,22 @@
+package ex06;
+//람다식
+interface Cal3{
+	int max(int num1, int num2);
+}
+
+
+public class Lamda6 {
+	public static void main(String[] args) {
+
+		Cal3 cal = 
+			
+			(num1, num2) -> num1>num2 ? num1: num2;
+//		{return num1>num2 ? num1: num2;}; {}가 없으면 return 뺴준다. 
+			
+	
+		
+		int result = cal.max(5, 10);
+		System.out.println(result);
+	}
+
+}

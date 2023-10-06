@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;Java_polymorphism_20230921&apos; to &apos;Java_Polymorphism_20230921&apos;&#x0D;&#x0A;- Original element: &apos;Java_polymorphism_20230921&apos;&#x0D;&#x0A;- Renamed element: &apos;Java_polymorphism_20230921&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;Java_polymorphism_20230921&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Java_polymorphism_20230921" name="Java_Polymorphism_20230921" references="true" stamp="1695258541385" version="1.0"/>
+</session>

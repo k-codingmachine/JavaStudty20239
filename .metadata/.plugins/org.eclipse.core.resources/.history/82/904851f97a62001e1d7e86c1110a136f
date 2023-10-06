@@ -1,0 +1,27 @@
+package ex06;
+
+import java.util.function.Function;
+
+//	int square(int x);
+
+
+
+
+public class Lamda8_1 {
+	public static void main(String[] args) {
+		
+		
+		Function<Integer, Integer> f1 = x -> x*x;
+			System.out.println(f1.apply(5));
+			
+			
+			
+			
+			
+
+			
+	
+		
+	}
+
+}

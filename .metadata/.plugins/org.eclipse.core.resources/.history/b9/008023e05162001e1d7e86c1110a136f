@@ -1,0 +1,12 @@
+package ex02;
+
+public class Snippet {
+	public static void main(String[] args) {
+		m1.add(5);
+				System.out.println(m1.get());
+		
+				m2.add(15);
+				System.out.println(m2.get());
+	}
+}
+

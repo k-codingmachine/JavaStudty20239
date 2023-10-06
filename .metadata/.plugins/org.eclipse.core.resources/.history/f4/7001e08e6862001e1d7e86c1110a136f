@@ -1,0 +1,32 @@
+package ex06;
+
+@FunctionalInterface
+interface Square{
+	int wprhq(int x);
+}
+class Wprhq implements Square{
+	@Override
+	public int wprhq(int x) {
+		return x*x;
+	}
+}
+
+
+
+public class Lamda8 {
+	public static void main(String[] args) {
+		Square sq = 
+			
+			(x) -> x*x;
+			
+			sq.wprhq(4);
+			System.out.println(sq);
+			
+			
+
+			
+	
+		
+	}
+
+}

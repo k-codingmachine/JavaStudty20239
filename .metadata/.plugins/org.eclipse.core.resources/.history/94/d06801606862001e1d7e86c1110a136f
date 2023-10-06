@@ -1,0 +1,23 @@
+package ex06;
+
+@FunctionalInterface
+interface PrintVar{
+	void print(String name, int i);
+
+}
+
+
+public class Lamda8 {
+	public static void main(String[] args) {
+		PrintVar var = 
+			
+			(name, i) -> System.out.println(name + "="+i);
+			
+			var.print("승훈", 5);
+
+			
+	
+		
+	}
+
+}

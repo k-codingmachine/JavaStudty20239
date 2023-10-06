@@ -1,0 +1,29 @@
+package ex06;
+
+@FunctionalInterface
+interface Ccc{
+	int square(int x);
+}
+
+
+
+public class Lamda8 {
+	public static void main(String[] args) {
+		Ccc cc = 
+			
+			(int x) -> x*x;
+			
+			int result = cc.square(9);
+			System.out.println(result);
+			
+			
+			
+			
+			
+
+			
+	
+		
+	}
+
+}

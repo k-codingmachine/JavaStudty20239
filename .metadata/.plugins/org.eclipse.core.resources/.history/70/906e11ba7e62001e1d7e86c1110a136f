@@ -1,0 +1,20 @@
+package ex06;
+
+@FunctionalInterface
+interface Ddd{
+	int roll();
+}
+
+public class Lamda9_1 {
+	public static void main(String[] args) {
+		Ddd dd = 
+			
+			() -> (int)Math.random()*6; //  문장이 하나면 {}생략
+
+			
+	int result = dd.roll();
+	System.out.println(result);
+		
+	}
+
+}
