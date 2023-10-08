@@ -8,12 +8,10 @@ class Student{
 	private String name;
 	private int java;
 	
-	
 	public Student(String name, int java) {
 		this.name = name;
 		this.java = java;
 	}
-
 
 	public int getJava() { return java;}
 }
