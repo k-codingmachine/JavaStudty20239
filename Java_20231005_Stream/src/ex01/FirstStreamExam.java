@@ -6,6 +6,7 @@ import java.util.stream.IntStream;
 
 public class FirstStreamExam {
 
+	
 	public static void main(String[] args) {
 		int[] ar = {5,2,3,4,1};
 		
